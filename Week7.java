@@ -1,10 +1,12 @@
 public class Week7 {
+    // hit run to see the results
     public static void main(String[] args){
         String word = "hello world";
         System.out.println(word.substring(0, word.length()/2)); //first half of the word
         System.out.println(word.substring(word.length()/2)); // second half of the word
 
         System.out.println(word.substring(word.length() - 1)); // last letter of the word
+        System.out.println(word.substring(0, word.length() - 1)); 
         System.out.println(word.substring(word.length() - 2)); // last two letters of the word
         System.out.println(word.substring(word.length() - 3)); // last three letters of the word
 
@@ -13,7 +15,7 @@ public class Week7 {
         System.out.println(word.substring(word.length()/3)); // the first third of the word
 
 
-        System.out.println(word.indexOf("x")); // returns -1
+        System.out.println(word.indexOf("x")); // returns -1 if not found
     }
 }
 
@@ -23,7 +25,7 @@ public class Week7 {
 
 // as soon as you figure out what a function does in abstract language, write yourself a note
 
-// replace all complex numbers like (length / number) with the actual number that they stand for, remember no decimals
+// replace all complex numbers, i.e. (length / 3) with the actual number that they stand for, remember no decimals
 
 // StringIndexOutOfBoundsException occurs if you go 2 items over the last index OR try to access any negative indexes
 
