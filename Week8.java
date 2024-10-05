@@ -27,7 +27,9 @@ public class Week8{
     // let's make a custom function that replaces any letter of any word with anything!
     public static String replace(String word, String target, String replacement){ // takes in the word, what to replace, 
                                                                                   // and what to replace it with
+        
         int index = word.indexOf(target); // finds the target in the String and stores where it is
+        
         return word.substring(0, index) + replacement + word.substring(index + 1); // add together the String before the
                                                                                    // target, plus the replacement, plus
                                                                                    // the String after the target
