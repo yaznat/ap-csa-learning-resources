@@ -25,7 +25,7 @@ public class Week7 {
 
 // as soon as you figure out what a function does in abstract language, write yourself a note
 
-// replace all complex numbers, i.e. (length / 3) with the actual number that they stand for, remember no decimals
+// replace all complex terms, i.e. (length / 3) with the actual number that they stand for, remember no decimals
 
 // StringIndexOutOfBoundsException occurs if you go 2 items over the last index OR try to access any negative indexes
 
