@@ -15,7 +15,6 @@ A couple of things to remember for the final:
 
   
 
-
   When making a for i loop, either do:
     
     i = 0 and i < number
