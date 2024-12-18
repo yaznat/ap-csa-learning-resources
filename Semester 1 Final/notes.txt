@@ -1,0 +1,36 @@
+A couple of things to remember for the final:
+
+
+
+  Import Random by typing Random (capital R), hover over the red, 
+  hit quick fix, hit import Random
+
+  !!! Use r.nextInt by creating a private Random variable in the class:
+        private Random r = new Random();
+
+  r.nextInt(num) returns a random number from 0 to num - 1. 
+
+  To create a different range, add a number to it:
+    For example: a six sided die is r.nextInt(6) + 1
+
+  
+
+
+  When making a for i loop, either do:
+    
+    i = 0 and i < number
+
+    OR
+
+    i = 1 and i <= number
+
+  You can always count out iterations on your fingers to relearn this.
+
+
+
+  To debug your individual methods, first make sure they are "public" and not "private."
+
+  Then, in a main method, create an object of the class they are in:
+    For example: Game g = new Game();
+
+  Finally, print g.*name_of_method* to the terminal to see what it returns.
